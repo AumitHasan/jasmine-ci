@@ -1,0 +1,31 @@
+
+1. git init
+    after git init select these
+    {
+      "name": "simple-calculator",
+      "version": "0.1.0",
+      "description": "",
+      "main": "main.js",
+      "directories": {
+        "lib": "lib"
+      },
+      "scripts": {
+        "test": "karma start"
+      },
+      "author": "Aumit",
+      "license": "ISC"
+    }
+
+2. npm install karma --save-dev
+3. npm install jasmine-core karma-jasmine
+4. npm install karma-jasmine-matchers --save-dev
+5. add karma.conf.js 
+6. add headless browser: npm install puppeteer --save-dev
+7. install plagin and add to karma.conf.js plugins: npm install karma-chrome-launcher --save-dev 
+8. add headless browser in conf.js file
+9. npm test to test 
+
+/// Coverage reports
+1. npm install istanbul --save-dev
+2. npm install karma-cli --save-dev
+3. npm i karma-coverage --save-dev
