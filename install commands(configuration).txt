@@ -28,4 +28,5 @@
 /// Coverage reports
 1. npm install istanbul --save-dev
 2. npm install karma-cli --save-dev
-3. npm i karma-coverage --save-dev
+3. npm i karma-coverage --save-dev 
+4. travis-ci.com :  https://travis-ci.com/github/AumitHasan/jasmine-ci
